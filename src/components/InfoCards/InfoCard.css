@@ -88,7 +88,7 @@
         padding: 0.6rem;
     }
     .time-card .time{
-        font-size: 1.8rem !important;
+        font-size: 1.8rem;
     }
 }
 
@@ -111,24 +111,24 @@
     }
 
     .info-card .icon {
-        font-size: 1.8rem !important;
+        font-size: 1.8rem;
         line-height: 1px;
      
     }
 
     .info-card {
-        font-size: 1.5rem !important;
+        font-size: 1.5rem;
         line-height: 1em;
     
     }
     .value{
-        font-size:0.8rem !important ;
+        font-size:0.8rem;
     }
     .field{
-        font-size: 0.6rem !important;
+        font-size: 0.6rem;
     }
     .time-card .time{
-        font-size: 1.7rem !important;
+        font-size: 1.7rem;
     }
    
 }
@@ -136,7 +136,7 @@
 
 @media screen and (max-width: 445px) {
     .time-card .time {
-        font-size: 1.45rem !important;
+        font-size: 1.45rem;
     }
 }
 
@@ -146,7 +146,7 @@
         padding: 10px;
     }
     .time-card .time {
-        font-size: 1.4rem !important;
+        font-size: 1.4rem;
     }
     .time-card{
         justify-content: space-between;
@@ -156,6 +156,6 @@
   
 @media screen and (max-width: 355px) {
     .time-card .time {
-        font-size: 1.3rem !important;
+        font-size: 1.3rem;
     }
 }
