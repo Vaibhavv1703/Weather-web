@@ -6,7 +6,7 @@
     background-color: var(--theme);
     width: max-content;
     border-radius: 12px;
-    padding: 1rem
+    padding: 1rem;
 }
 
 .dashboard .maincol, .dashboard .sidecol {

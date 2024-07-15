@@ -24,7 +24,6 @@ const DashBoard = () => {
                 <div className="sidecol">
                     <DateTime />
                     <TimeCard time={"10:29"} amORpm={"AM"} />
-                    <TimeCard time={"10:29"} amORpm={"AM"} />
                 </div>
             </div>
         </div>

@@ -4,6 +4,7 @@ import "./InfoCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCloudShowersHeavy, faDroplet, faTemperatureThreeQuarters, faWind } from "@fortawesome/free-solid-svg-icons";
 import sunrise from "../../assets/sunrise.svg"
+import sunset from "../../assets/sunset.svg"
 
 var iconmap = {
     "feels like": faTemperatureThreeQuarters,
@@ -30,6 +31,12 @@ export function TimeCard({ time, amORpm }) {
             <div className="field">Sunrise</div>
             <div className="time">
                 <img src={sunrise} alt="" srcSet="" className="sun-icon" />
+                <span>{time}</span>
+                <span style={{ fontSize: "1rem" }}> {amORpm}</span>
+            </div>
+            <div className="field">Sunset</div>
+            <div className="time">
+                <img src={sunset} alt="" srcSet="" className="sun-icon" />
                 <span>{time}</span>
                 <span style={{ fontSize: "1rem" }}> {amORpm}</span>
             </div>
