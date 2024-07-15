@@ -11,6 +11,12 @@
     border-radius: 12px;
 }
 
+.info-card:hover {
+    width: 105%;
+    height: 105%;
+    background-color: hsla(0, 0%, 0%, 0.377);
+}
+
 .info-card .icon {
     font-size: 2.5rem;
     line-height: 1px;

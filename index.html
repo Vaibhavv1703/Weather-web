@@ -7,6 +7,13 @@
     <title>Vite + React</title>
   </head>
   <body>
+    <script>
+      var reloadInterval = 10000;
+      function reloadPage() {
+        window.location.reload(false);
+      }
+      setInterval(reloadPage, reloadInterval);
+  </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
