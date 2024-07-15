@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     width: min-content;
-    gap: 15rem;
+    gap: 2rem;
     background: hsla(0, 0%, 1000%, 0.13);
     border-radius: 15px;
     padding: 1rem;
@@ -15,7 +15,7 @@
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 .banner .typography .minmax {
