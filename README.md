@@ -22,3 +22,12 @@ npm run dev
 ```
 
 Start building from here, we are excited to see your ideas!✨
+
+
+
+
+
+
+--------------------CHANGES MADE--------------------
+The website self reloads after a fixed time interval - 10secs to provide more accurate information.
+The info card changes shape on hover.
