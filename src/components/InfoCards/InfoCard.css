@@ -62,6 +62,11 @@
     margin-right: 1rem;
 }
 
+.time-card:hover{
+    cursor: pointer;
+    background-color: hsla(0, 0%, 100%, 20%);
+}
+
 @media screen and (max-width: 600px) {
     .time-card .sun-icon {
         height: 1em;
@@ -160,6 +165,7 @@
 
 .info-card:hover{
     background-color: hsla(0, 0%, 0%, 0.35);
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar {
