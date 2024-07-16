@@ -23,3 +23,49 @@
     width: 100%;
     gap: 1rem;
 }
+
+@media screen and (max-width: 350px) {
+    .dashboard {
+      width: 300px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .dashboard {
+      width: 350px;
+      align-items: center;
+      justify-content: center;
+    }
+    .stats {
+      overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .dashboard {
+        width: 480px;
+        align-items: center;
+        justify-content: center;
+    }
+    .maincol {
+        width: 100%;
+    }
+    .timecardHolder {
+        gap: 0px;
+        justify-content: space-between !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .dashboard {
+        flex-direction: column;
+    }
+    .sidecol {
+        width: 100%;
+    }
+    .timecardHolder {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
