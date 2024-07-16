@@ -46,16 +46,6 @@
     width: 14rem;
 }
 
-@media screen and (max-width: 600px) {
-    .banner .typography .status {
-        font-size: 1rem;
-    }
-
-    .banner .image img {
-        width: 10rem;
-    }
-}
-
 @media screen and (max-width: 830px) {
     .banner .typography {
         gap: 0px !important;
