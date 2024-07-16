@@ -62,13 +62,6 @@
     margin-right: 1rem;
 }
 
-.info-card:hover {
-    width: 105%;
-    height: 105%;
-    background-color: hsla(0, 0%, 0%, 0.377);
-}
-
-
 @media screen and (max-width: 600px) {
     .time-card .sun-icon {
         height: 1em;
