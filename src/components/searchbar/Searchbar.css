@@ -21,6 +21,10 @@
   color: var(--light);
 }
 
+.searchicon{
+  cursor: pointer;
+}
+
 .searchbar .searchicon {
   position: absolute;
   left: 0.8rem;
@@ -41,6 +45,10 @@
   background-color: var(--light);
   color: var(--theme);
   aspect-ratio: 1/1;
+}
+
+.button:hover{
+scale: 1.1;
 }
 
 @media screen and (max-width: 490px) {
