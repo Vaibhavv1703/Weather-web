@@ -47,6 +47,12 @@
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 355px) {
+    .searchbar {
+      width: 310px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .searchbar {
       width: 330px;

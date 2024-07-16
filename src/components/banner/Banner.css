@@ -41,18 +41,41 @@
     width: 14rem;
 }
 
+@media screen and (max-width: 350px) {
+    .temperature{
+        font-size: 3.5rem !important;
+    }
+     .label{
+      font-size: 0.8rem !important ;
+     }
+    .banner{
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+}
+
 @media screen and (max-width: 430px) {
     .banner .typography .status {
         font-size: 0.8rem;
     }
     .banner .image img {
-         width: 6.9rem;
+        width: 6.9rem;
     } 
     .label{
         font-size:0.9rem !important ;
     }
     .banner{
         gap:0rem !important
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner .typography .status {
+        font-size: 1rem;
+    }
+    
+    .banner .image img {
+        width: 10rem;
     }
 }
 

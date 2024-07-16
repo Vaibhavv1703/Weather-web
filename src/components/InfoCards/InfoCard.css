@@ -71,6 +71,18 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .time-card {
+        padding: 10px;
+    }
+    .time-card .time {
+        font-size: 1.4rem !important;
+    }
+    .time-card{
+        justify-content: space-between;
+    }
+}
+
 @media screen and (max-width: 490px) {
     .time-card .time {
         font-size: 1.5rem;
