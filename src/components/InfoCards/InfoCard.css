@@ -62,6 +62,12 @@
     margin-right: 1rem;
 }
 
+.info-card:hover {
+    width: 105%;
+    height: 105%;
+    background-color: hsla(0, 0%, 0%, 0.377);
+}
+
 
 @media screen and (max-width: 600px) {
     .time-card .sun-icon {
@@ -78,9 +84,7 @@
         line-height: 1.2em;
         font-weight: 500;
     }
-
     .info-card .field {
-        color: #ffffff8a;
         font-size: 0.7rem;
         font-weight: 300;
     }
@@ -122,7 +126,6 @@
     .info-card {
         font-size: 1.5rem !important;
         line-height: 1em;
-
     }
 
     .value {
@@ -160,7 +163,6 @@
         justify-content: space-between;
     }
 }
-
 
 @media screen and (max-width: 355px) {
     .time-card .time {
